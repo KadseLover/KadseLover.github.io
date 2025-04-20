@@ -8,7 +8,7 @@ h1 {
 
 
 header {
-    background-color: #1c1c1c;
+    background-color: #1c1c1ce0;
     align-items: center;
     padding: 0.2rem;
     border-radius: 20px;
@@ -44,23 +44,33 @@ nav ul {
 }
 
 body {
-    background-color: #3b3b3b;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
+
 
 main {
     margin-left: 40px;
+    background-color: #1a1a1aab;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 0.3rem;
 }
 
 h2 {
     font-size: 30px;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
 }
 
 p {
     font-size: 20px;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 30px;
 }
 
 a {
@@ -73,4 +83,5 @@ pre {
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 50px;
+    margin-left: 30px;
 }
