@@ -10,6 +10,7 @@ h1 {
 header {
     background-color: #1c1c1ce0;
     align-items: center;
+    display: flex;
     padding: 0.2rem;
     border-radius: 20px;
 }
@@ -44,7 +45,7 @@ nav ul {
 }
 
 body {
-    background-image: url(background.png);
+    background-image: url(res/background.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -84,4 +85,13 @@ pre {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 50px;
     margin-left: 30px;
+}
+
+.Roadmap {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 25px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left:inherit;
 }
