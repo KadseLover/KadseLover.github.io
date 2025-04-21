@@ -46,7 +46,7 @@ nav ul {
 
 body {
     background-image: url(res/background.png);
-    background-repeat: no-repeat;
+    background-repeat:repeat;
     background-size: cover;
     position: relative;
 }
