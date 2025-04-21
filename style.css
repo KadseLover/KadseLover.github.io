@@ -80,6 +80,14 @@ a {
     text-decoration: none;
 }
 
+.normal:hover {
+    text-decoration: underline;
+}
+
+.normal:visited {
+    text-decoration: none;
+}
+
 pre {
     font-size: 20px;
     color: white;
