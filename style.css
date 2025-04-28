@@ -37,11 +37,22 @@ nav ul {
 .home {
     color: #ffa07a;
     text-decoration: none;
+    transition: transform 0.3s ease;
+    margin-right: 30px;
+}
+
+.home:hover {
+    transform: scale(1.05);
+    color: rgb(255, 174, 143)
 }
 
 .link:hover {
-    background-color: #3d3d3d;
+    background-color: #3d3d3d97;
     border-radius: 5px;
+}
+
+.link:active{
+    background-color: #62626278;
 }
 
 body {
@@ -88,15 +99,6 @@ pre {
     margin-left: 30px;
 }
 
-.Roadmap {
-    font-size: 25px;
-    font-weight: 500;
-    line-height: 25px;
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-left: 1rem;
-}
-
 .Roadmap_titel {
     font-size: 35px;
 }
@@ -110,16 +112,22 @@ pre {
 }
 
 .logo {
-    margin-left: 35px;
+    margin-left: 15px;
     margin-top: 15px;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.05);
 }
 
 .Roadmap:before {
-    display: block;
+    display: flex;
     position: absolute;
     left: 0; 
-    height: 34px;
-    width: 16px;
+    height: 44px;
+    width: 26px;
     content: "⦿";
     color: lightsalmon;
     margin-left: 110px;
@@ -130,12 +138,13 @@ pre {
 }
 
 .Roadmap {
-    line-height: 60px;
+    line-height: 70px;
+    font-weight: 500;
     font-size: 25px;
     color: white;
     list-style: none;
-    padding-left: 40px;
-    margin-left: 4.66rem;
+    padding-left: 20px;
+    margin-left: 4.75rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-left: 2px solid lightsalmon;
 }
