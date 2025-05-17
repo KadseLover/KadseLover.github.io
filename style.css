@@ -55,7 +55,9 @@ nav ul {
     background-color: #62626278;
 }
 
-body {
+
+
+body{
     background-image: url(res/background.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,6 +71,7 @@ main {
     border-radius: 10px;
     margin-top: 30px;
     padding: 0.3rem;
+    padding-bottom: 1rem;
 }
 
 h2 {
@@ -112,14 +115,14 @@ pre {
 }
 
 .logo {
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-right: 10px;
+    margin-left: 35px;
+    margin-top: 25px;
+    margin-right: 5px;
     transition: transform 0.3s ease;
 }
 
 .logo:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 .Roadmap:before {
@@ -138,13 +141,13 @@ pre {
 }
 
 .Roadmap {
-    line-height: 70px;
+    line-height: 60px;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 22px;
     color: white;
     list-style: none;
     padding-left: 20px;
-    margin-left: 4.75rem;
+    margin-left: 73px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-left: 2px solid lightsalmon;
 }
